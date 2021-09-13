@@ -1,0 +1,29 @@
+package fr.bts.sio1;
+
+import java.util.Scanner;
+
+public class java_tp_nom_prenom{
+
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+
+
+String message = "Bienvenue dans le programme de récupération !";
+System.out.println(message);
+Scanner monScanner = new Scanner(System.in);
+
+System.out.println("La marque que vous cherchez est : ");
+String marque = monScanner.nextLine();
+
+System.out.println("La couleur est : ");
+String couleur = monScanner.nextLine();
+
+System.out.println("Votre future voiture aura (âge) : ");
+String âge = monScanner.nextLine();
+
+System.out.println("Merci d'avoir utilisé l'application. Au revoir !");
+monScanner.close();
+
+}
+
+}
